@@ -16,7 +16,7 @@
 5 - Choisir la taille de l'image (32x32 pour un sprite de personnage, 16x16 pour un objet, etc.). 
 - Le nom du fichier sera **[Face]** + **[Nom du personnage]**
 - Exemple: 
-    - [**Face]Manley**
+    - **[Face]Manley**
     - **[Cote]Manley**
     - **[Dos]Manley**
 
