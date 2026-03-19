@@ -11,7 +11,7 @@
 
 4 - Cliquer sur **"Open"** pour ouvrir un sprite
 
-5 - Faites ensuite votre sprite et suivez bien l'arboresence des fichiers dans le dossier "Game". (Faire un dossier par personnage, etc). Pour enregistrer, choisir la résolution x32 et bien nommé chaques sprites.
+5 - Faites ensuite votre sprite et suivez bien l'arboresence des fichiers dans le dossier "Game". (Faire un dossier par personnage, etc). Pour enregistrer, choisir la résolution x32 et en .png et bien nommé chaques sprites.
 - Le nom du fichier sera **[Face]** + **[Nom du personnage]**
 - Exemple: 
     - **[Face]Manley**
@@ -33,5 +33,4 @@
 ## Voici un exemple de Pixel Art
 
 ![alt text](/markdown-image/[Face]TestDeManley.png)
-
 
