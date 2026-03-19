@@ -1,14 +1,20 @@
 extends CharacterBody2D
 
-const speed = 100
+@export var speed = 100
+var character_direction : Vector2
 
 func _physics_process(delta: float) -> void:
-	pass
+	character_direction.x = Input.get_axis("left", "right")
+	character_direction.y = Input.get_axis("up", "down")
+	
+	if character_direction.x > 0: %sprite.flip_h = false
+	elif character_direction.x < 0: %sprite.flip_h = true
+	
+	if character_direction:
+		velocity = character_direction * speed
+		if %sprite.animation != ""
+
+
 
 func player_movement(delta):
-	if Input.is_action_pressed("ui_right"):
-		velocity.x = speed
-		velocity.y = 0
-	if Input.is_action_pressed("ui_down"):
-		velocity.x = 0
-		velocity.y = speed
+	pass
