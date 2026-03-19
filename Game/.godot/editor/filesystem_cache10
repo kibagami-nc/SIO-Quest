@@ -1,3 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773290847
-icon.svg::CompressedTexture2D::7718741923032007366::1773290647::1773290653::1::::<><><>0<>0<>1f9c4d13b9500655eae6c275883c801d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://::1773896088
+::res://art/::1773293185
+Basic Charakter Spritesheet.png::CompressedTexture2D::3654036368820369040::1773293185::1773293185::1::::<><><>0<>0<>d7982b8690484a69e8ec19b84ab70576<>res://.godot/imported/Basic Charakter Spritesheet.png-f9a74d3f34466bb5571be2377a673495.ctex::
+icon.svg::CompressedTexture2D::7718741923032007366::1773291576::1773293042::1::::<><><>0<>0<>4f934a337e6591d1097cd932d4b61dca<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
+::res://scenes/::1773293056
+node_2d.gd::GDScript::737810740878426584::1773292397::0::1::::<>Node2D<><>0<>0<><>::
+::res://scripts/::1773294723
+player.gd::GDScript::6492523498496291404::1773294722::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::6974512965741030100::1773294722::0::1::::<><><>0<>0<><>::uid://cyra6b7ja6nlk::::res://scripts/player.gd<>uid://bscbpetrmcvam::::res://art/Basic Charakter Spritesheet.png
