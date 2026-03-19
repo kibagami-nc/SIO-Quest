@@ -9,18 +9,26 @@
 
 ![alt text](/markdown-image/image.png)
 
-4 - Cliquer sur **"New"** pour créer un nouveau projet
+4 - Cliquer sur **"Open"** pour ouvrir un sprite
 
-![alt text](/markdown-image/image-1.png)
-
-5 - Choisir la taille de l'image (32x32 pour un sprite de personnage, 16x16 pour un objet, etc.). 
+5 - Faites ensuite votre sprite et suivez bien l'arboresence des fichiers dans le dossier "Game". (Faire un dossier par personnage, etc). Pour enregistrer, choisir la résolution x32 et en .png et bien nommé chaques sprites.
 - Le nom du fichier sera **[Face]** + **[Nom du personnage]**
 - Exemple: 
     - **[Face]Manley**
+    - **[Face-G]Manley**
+    - **[Face-D]Manley**
+    -
     - **[Cote]Manley**
+    - **[Cote-G]Manley**
+    - **[Cote-D]Manley**
+    -
     - **[Dos]Manley**
+    - **[Dos-G]Manley**
+    - **[Dos-D]Manley**
 
-![alt text](/markdown-image/image-2.png)
+(Le "-D" et "-G" servent à dire que la jambe droite ou gauche est levée)
+
+
 
 ## Voici un exemple de Pixel Art
 
