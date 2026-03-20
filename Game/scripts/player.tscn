@@ -1,33 +1,88 @@
 [gd_scene format=3 uid="uid://c6mrheioduntk"]
 
 [ext_resource type="Script" uid="uid://cyra6b7ja6nlk" path="res://scripts/player.gd" id="1_qm0ti"]
-[ext_resource type="Texture2D" uid="uid://mjh74b4imqkh" path="res://art/Textures/Characters/Allan/[Face]Allan.png" id="2_pqap4"]
-[ext_resource type="Texture2D" uid="uid://ldiy32brlq5u" path="res://art/Textures/Characters/Allan/[Face-G]Allan.png" id="3_2c7ny"]
-[ext_resource type="Texture2D" uid="uid://bk6hknatv3o1f" path="res://art/Textures/Characters/Allan/[Face-D]Allan.png" id="4_0jhex"]
+[ext_resource type="Texture2D" uid="uid://bscbpetrmcvam" path="res://art/Basic Charakter Spritesheet.png" id="2_qm0ti"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pqap4"]
 radius = 268.00186
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhbv5"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqap4"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2c7ny"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0jhex"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38am0"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(96, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xfidv"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(144, 144, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxd4c"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(96, 48, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8o0x"]
+atlas = ExtResource("2_qm0ti")
+region = Rect2(144, 48, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_0pev8"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_pqap4")
+"texture": SubResource("AtlasTexture_fhbv5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqap4")
 }],
 "loop": true,
-"name": &"FaceIdle",
+"name": &"down",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_2c7ny")
+"texture": SubResource("AtlasTexture_2c7ny")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_0jhex")
+"texture": SubResource("AtlasTexture_0jhex")
 }],
 "loop": true,
-"name": &"FaceWalk",
-"speed": 3.0
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38am0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xfidv")
+}],
+"loop": true,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxd4c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8o0x")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
 }]
 
 [node name="player" type="CharacterBody2D" unique_id=1857865805]
@@ -37,6 +92,6 @@ script = ExtResource("1_qm0ti")
 shape = SubResource("CircleShape2D_pqap4")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1924211390]
+unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_0pev8")
-animation = &"FaceIdle"
-frame_progress = 0.3417009
+animation = &"idle"
