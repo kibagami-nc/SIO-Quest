@@ -1,18 +1,19 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1773896088
+::res://::1773966740
 ::res://art/::1773897664
 Basic Charakter Spritesheet.png::CompressedTexture2D::3654036368820369040::1773293185::1773293185::1::::<><><>0<>0<>d7982b8690484a69e8ec19b84ab70576<>res://.godot/imported/Basic Charakter Spritesheet.png-f9a74d3f34466bb5571be2377a673495.ctex::
 icon.svg::CompressedTexture2D::7718741923032007366::1773291576::1773293042::1::::<><><>0<>0<>4f934a337e6591d1097cd932d4b61dca<>res://.godot/imported/icon.svg-2ffe2e9772a318535303737ea3c29287.ctex::
 ::res://art/Textures/::1773897465
 ::res://art/Textures/Characters/::1773897465
-::res://art/Textures/Characters/Allan/::1773897465
+::res://art/Textures/Characters/Allan/::1773897667
 [Face-D]Allan.png::CompressedTexture2D::3152748391033697729::1773897465::1773897667::1::::<><><>0<>0<>d70d57fb7b59148f6a403e38da3fccd7<>res://.godot/imported/[Face-D]Allan.png-9fcb07c20a992b6509a52619bce74e0f.ctex::
 [Face-G]Allan.png::CompressedTexture2D::778800520708513048::1773897465::1773897667::1::::<><><>0<>0<>6117e82d6539177d2b5df44d6c6bd942<>res://.godot/imported/[Face-G]Allan.png-ca5819bd49b0bf4a7e7d27d40ba7fe02.ctex::
 [Face]Allan.png::CompressedTexture2D::861329213848015579::1773897465::1773897667::1::::<><><>0<>0<>403328ad3338060e2b425fc2f7533348<>res://.godot/imported/[Face]Allan.png-2fecbb7e9eb7e95b3e8360b479451360.ctex::
-::res://art/Textures/World/::1773897465
+::res://art/Textures/World/::1773897667
 Grass.png::CompressedTexture2D::5371173510466391947::1773897465::1773897667::1::::<><><>0<>0<>25020f4b5126ba116aa433d8cf13a3cc<>res://.godot/imported/Grass.png-0888af33dbc13a2bed8d11de10bf5a50.ctex::
-::res://scenes/::1773293056
+::res://scenes/::1773898270
+game.tscn::PackedScene::509264519955685933::1773898270::0::1::::<><><>0<>0<><>::uid://c6mrheioduntk::::res://scripts/player.tscn
 node_2d.gd::GDScript::737810740878426584::1773292397::0::1::::<>Node2D<><>0<>0<><>::
-::res://scripts/::1773294723
-player.gd::GDScript::6492523498496291404::1773294722::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::6974512965741030100::1773294722::0::1::::<><><>0<>0<><>::uid://cyra6b7ja6nlk::::res://scripts/player.gd<>uid://bscbpetrmcvam::::res://art/Basic Charakter Spritesheet.png
+::res://scripts/::1773899660
+player.gd::GDScript::6492523498496291404::1773899660::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::6974512965741030100::1773899660::0::1::::<><><>0<>0<><>::uid://cyra6b7ja6nlk::::res://scripts/player.gd<>uid://mjh74b4imqkh::::res://art/Textures/Characters/Allan/[Face]Allan.png<>uid://ldiy32brlq5u::::res://art/Textures/Characters/Allan/[Face-G]Allan.png<>uid://bk6hknatv3o1f::::res://art/Textures/Characters/Allan/[Face-D]Allan.png
